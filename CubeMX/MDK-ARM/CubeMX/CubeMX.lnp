@@ -2,6 +2,7 @@
 "cubemx\startup_stm32h750xx.o"
 "cubemx\main.o"
 "cubemx\gpio.o"
+"cubemx\spi.o"
 "cubemx\usart.o"
 "cubemx\stm32h7xx_it.o"
 "cubemx\stm32h7xx_hal_msp.o"
@@ -21,6 +22,8 @@
 "cubemx\stm32h7xx_hal_i2c.o"
 "cubemx\stm32h7xx_hal_i2c_ex.o"
 "cubemx\stm32h7xx_hal_exti.o"
+"cubemx\stm32h7xx_hal_spi.o"
+"cubemx\stm32h7xx_hal_spi_ex.o"
 "cubemx\stm32h7xx_hal_tim.o"
 "cubemx\stm32h7xx_hal_tim_ex.o"
 "cubemx\stm32h7xx_hal_uart.o"
@@ -52,6 +55,7 @@
 "cubemx\cpuport.o"
 "cubemx\board.o"
 "cubemx\user_cmd.o"
+"cubemx\w25q64.o"
 --library_type=microlib --strict --scatter "CubeMX\CubeMX.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

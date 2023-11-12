@@ -14,7 +14,7 @@
 #include <rtthread.h>
 #include <stm32h7xx.h>
 
-// #define BSP_SCB_ENABLE_I_CACHE
-// #define BSP_SCB_ENABLE_D_CACHE
+#define BSP_SCB_ENABLE_I_CACHE
+#define BSP_SCB_ENABLE_D_CACHE
 
 #endif

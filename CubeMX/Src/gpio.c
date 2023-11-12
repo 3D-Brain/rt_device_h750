@@ -22,7 +22,7 @@
 #include "gpio.h"
 
 /* USER CODE BEGIN 0 */
-
+#include "rthw.h"
 /* USER CODE END 0 */
 
 /*----------------------------------------------------------------------------*/
@@ -49,6 +49,7 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, GPIO_PIN_RESET);
@@ -64,4 +65,10 @@ void MX_GPIO_Init(void)
 
 /* USER CODE BEGIN 2 */
 
+int gpio_init(void)
+{
+  MX_GPIO_Init();
+  return 0;
+}
+INIT_BOARD_EXPORT(gpio_init);
 /* USER CODE END 2 */

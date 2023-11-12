@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "spi.h"
 #include "usart.h"
 #include "gpio.h"
 
@@ -58,7 +59,8 @@ int main(void)
 {
 //	HAL_Init();
 //	SystemClock_Config();
-	MX_GPIO_Init();
+	// MX_GPIO_Init();
+  rt_kprintf("SystemCoreClock: %d Hz(%d)MHz \n", SystemCoreClock, SystemCoreClock/1000000);
   while (1)
   {
     HAL_GPIO_WritePin(GPIOC, GPIO_PIN_1, GPIO_PIN_RESET);

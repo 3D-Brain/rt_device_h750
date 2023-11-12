@@ -32,9 +32,11 @@ cubemx/main.o: ..\Src\main.c ..\Inc\main.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_i2c_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_spi.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_spi_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart_ex.h \
-  ..\Inc\usart.h ..\Inc\main.h ..\Inc\gpio.h \
+  ..\Inc\spi.h ..\Inc\main.h ..\Inc\usart.h ..\Inc\gpio.h \
   ..\..\rt-thread\include\rtthread.h ..\..\rt-thread\bsp\rtconfig.h \
   ..\..\rt-thread\components\finsh\finsh_config.h \
   ..\..\rt-thread\include\rtdebug.h ..\..\rt-thread\include\rtdef.h \

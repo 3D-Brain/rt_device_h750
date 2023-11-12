@@ -32,5 +32,15 @@ cubemx/gpio.o: ..\Src\gpio.c ..\Inc\gpio.h ..\Inc\main.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_i2c_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_pwr_ex.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_spi.h \
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_spi_ex.h \
   ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart.h \
-  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart_ex.h
+  ..\Drivers\STM32H7xx_HAL_Driver\Inc\stm32h7xx_hal_uart_ex.h \
+  ..\..\rt-thread\include\rthw.h ..\..\rt-thread\include\rtthread.h \
+  ..\..\rt-thread\bsp\rtconfig.h \
+  ..\..\rt-thread\components\finsh\finsh_config.h \
+  ..\..\rt-thread\include\rtdebug.h ..\..\rt-thread\include\rtdef.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
+  ..\..\rt-thread\include\rtservice.h \
+  ..\..\rt-thread\components\finsh\finsh_api.h \
+  ..\..\rt-thread\components\finsh\finsh_config.h
